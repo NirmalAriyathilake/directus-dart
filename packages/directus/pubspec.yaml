@@ -5,12 +5,15 @@ homepage: https://www.directus.io
 repository: https://github.com/apstanisic/directus-dart
 issue_tracker: https://github.com/apstanisic/directus-dart/issues
 
+publish_to: none
+
 environment:
   sdk: ">=3.0.0 <4.0.0"
   flutter: ">=3.10.0"
 
 dependencies:
-  directus_core: 0.11.0
+  directus_core:
+    path: ../directus_core
   # Storage
   shared_preferences: ^2.2.2
   flutter:
